@@ -1,5 +1,19 @@
+const RandomNumber = () => {
+    return Math.floor(Math.random() * 10000) + 59;
+}
+
 const QuestionsArr = 
     [
+        "What is 152 + 2345?",
+        "What is 2352 + 2345?",
+        "What is 1124 + 666354?",
+        "What is 65432 + 29345?",
+        "What is 152235 + 22345?",
+        "What is 2452 - 1352?",
+        "What is 42541 - 35231?",
+        "What is 11241 - 66764?",
+        "What is 141241 - 2?",
+        "What is 13523 - 13623?",   
         "What is the value of x if x² + 2x + 1 = 0?",
         "What is the value of x if x² - 4x + 4 = 0?",
         "What is the value of x if x² - 3x - 4 = 0?",
@@ -24,6 +38,16 @@ const QuestionsArr =
     ]
 
 const AnswersArr = [
+    "2497",
+    "10328",
+    "667478",
+    "94777",
+    "174580",
+    "1100",
+    "7310",
+    "-55523",
+    "141239",
+    "-100",
     "-1",
     "2",
     "4",
